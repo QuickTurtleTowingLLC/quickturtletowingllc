@@ -42,12 +42,6 @@
       font-size: 2rem;
       margin-bottom: 20px;
     }
-    .hero img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    }
     .about {
       background-color: #124f3c;
       border-radius: 12px;
@@ -89,6 +83,14 @@
     .call-button:hover {
       background-color: #218838;
     }
+    .truck-photo {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-top: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
     footer {
       margin-top: 30px;
       padding: 20px;
@@ -107,15 +109,11 @@
 <body>
   <header>
     <h1>
-      <img src="quick turtle towing full (1).png" alt="Quick Turtle Towing Logo">
+      <img src="logo.png" alt="Quick Turtle Towing Logo">
       Quick Turtle Towing LLC
     </h1>
     <p>Family-Owned • Safe • Affordable • Professional</p>
   </header>
-
-  <section class="hero">
-    <img src="70467855640__A0465EBC-7E33-4069-9B4E-DD014B3ACE66.jpg" alt="Quick Turtle Towing Truck">
-  </section>
 
   <section class="about">
     <h2>About Us</h2>
@@ -146,8 +144,13 @@
     <a class="call-button" href="tel:6235651513">📞 Call Alex: 623-565-1513</a>
   </section>
 
+  <!-- Truck image moved below contact -->
+  <section>
+    <img src="truck.jpg" alt="Quick Turtle Towing Truck" class="truck-photo">
+  </section>
+
   <footer>
-    <img src="quick turtle towing full (1).png" alt="Quick Turtle Towing Logo">
+    <img src="logo.png" alt="Quick Turtle Towing Logo">
     <p>&copy; 2025 Quick Turtle Towing LLC | Family-Owned & Serving You 24/7</p>
   </footer>
 </body>
