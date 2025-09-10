@@ -19,16 +19,17 @@
     }
     header h1 {
       margin: 0;
-      font-size: 2.8rem;
+      font-size: 2.4rem;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
+      gap: 12px;
       flex-wrap: wrap;
     }
     header h1 img {
-      height: 80px;
+      height: 60px; /* 🔥 makes the logo smaller */
       width: auto;
+      border-radius: 8px;
     }
     header p {
       margin: 10px 0 0;
@@ -70,11 +71,11 @@
     }
     .call-button {
       display: inline-block;
-      margin-top: 20px;
+      margin: 10px 10px;
       padding: 15px 25px;
       background-color: #28a745;
       color: white;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: bold;
       border-radius: 10px;
       text-decoration: none;
@@ -83,12 +84,14 @@
     .call-button:hover {
       background-color: #218838;
     }
-    .truck-photo {
+    .truck-image {
+      margin-top: 30px;
+    }
+    .truck-image img {
       max-width: 400px;
       width: 100%;
       height: auto;
       border-radius: 12px;
-      margin-top: 20px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     }
     footer {
@@ -99,7 +102,7 @@
       font-size: 0.9rem;
     }
     footer img {
-      height: 60px;
+      height: 50px;
       width: auto;
       display: block;
       margin: 10px auto;
@@ -138,20 +141,4 @@
 
   <section>
     <h2>Contact Us</h2>
-    <p>Available 24/7 for all your towing needs. Call us anytime!</p>
-    <a class="call-button" href="tel:6236983609">📞 Call Now: 623-698-3609</a>
-    <br><br>
-    <a class="call-button" href="tel:6235651513">📞 Call Alex: 623-565-1513</a>
-
-    <!-- Truck photo placed below contact buttons -->
-    <div>
-      <img src="truck.jpg" alt="Quick Turtle Towing Truck" class="truck-photo">
-    </div>
-  </section>
-
-  <footer>
-    <img src="logo.png" alt="Quick Turtle Towing Logo">
-    <p>&copy; 2025 Quick Turtle Towing LLC | Family-Owned & Serving You 24/7</p>
-  </footer>
-</body>
-</html>
+    <p>Available 24/7 for all
